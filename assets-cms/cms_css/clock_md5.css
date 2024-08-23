@@ -1,0 +1,76 @@
+.clock {
+    content:'Ajanta';
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 29px;
+  }
+
+  .hour-hand,
+  .minute-hand,
+  .second-hand {
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom center;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .hour-hand {
+    width: 6px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: -70px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .minute-hand {
+    width: 4px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    margin-left: -2px;
+    margin-top: -90px;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .second-hand {
+    width: 2px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -1px;
+    margin-top: -100px;
+    border-radius: 2px 2px 0 0;
+    background-color: red;
+  }
+
+  .number {
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .number-3 {
+    top: 95px;
+    left: 180px;
+  }
+
+  .number-6 {
+    top: 181px;
+    left: 50%;
+  }
+
+  .number-9 {
+    top: 95px;
+    left: 5px;
+  }
+
+  .number-12 {
+    top: 10px;
+    left: 94px;
+  }
