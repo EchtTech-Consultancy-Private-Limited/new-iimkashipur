@@ -18,14 +18,14 @@ class PreventBackHistory
     {
         
         $response = $next($request);
-        $response->headers->set('Access-Control-Allow-Origin', '*');
-        $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-        $response->headers->set('Cache-Control','nocache, no-store, max-age=0, must-revalidate');
-        $response->headers->set('Pragma','no-cache');
-        $response->headers->set('Expires','Sun, 02 Jan 1990 00:00:00 GMT');
-        $response->headers->set('X-Frame-Options', 'SAMEORIGIN', false);
-        $response->headers->set('X-XSS-Protection', "1; mode=block");
-        $response->headers->set('Content-Security-Policy', "upgrade-insecure-requests;block-all-mixed-content");
+        // $response->headers->set('Access-Control-Allow-Origin', '*');
+        // $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+        // $response->headers->set('Cache-Control','nocache, no-store, max-age=0, must-revalidate');
+        // $response->headers->set('Pragma','no-cache');
+        // $response->headers->set('Expires','Sun, 02 Jan 1990 00:00:00 GMT');
+        // $response->headers->set('X-Frame-Options', 'SAMEORIGIN', false);
+        // $response->headers->set('X-XSS-Protection', "1; mode=block");
+        // $response->headers->set('Content-Security-Policy', "upgrade-insecure-requests;block-all-mixed-content");
 
         return $response;
     }
