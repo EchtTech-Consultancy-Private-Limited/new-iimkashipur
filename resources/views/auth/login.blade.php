@@ -16,7 +16,7 @@
       <link rel="shortcut icon" href="{{ asset('assets-cms/media/logos/favicon.ico') }}"/>
       <link href="{{ asset('assets-cms/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css"/>
       <link href="{{ asset('assets-cms/cms_css/style.bundle.css') }}" rel="stylesheet" type="text/css"/>
-      <link href="{{ asset('assets-cms/cms_css/clock_md5.css') }}" rel="stylesheet" type="text/css"/>
+      <!-- <link href="{{ asset('assets-cms/cms_css/clock_md5.css') }}" rel="stylesheet" type="text/css"/> -->
       <link href="{{ asset('assets-cms/cms_css/cms-css.css') }}" rel="stylesheet" type="text/css"/>
    <style>
       </style>
