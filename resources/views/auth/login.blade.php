@@ -16,7 +16,6 @@
       <link rel="shortcut icon" href="{{ asset('assets-cms/media/logos/favicon.ico') }}"/>
       <link href="{{ asset('assets-cms/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css"/>
       <link href="{{ asset('assets-cms/cms_css/style.bundle.css') }}" rel="stylesheet" type="text/css"/>
-      <!-- <link href="{{ asset('assets-cms/cms_css/clock_md5.css') }}" rel="stylesheet" type="text/css"/> -->
       <link href="{{ asset('assets-cms/cms_css/cms-css.css') }}" rel="stylesheet" type="text/css"/>
    <style>
       </style>
@@ -35,16 +34,6 @@
          <div class="d-flex flex-column flex-lg-row flex-column-fluid">
             <div class="d-flex flex-lg-row-fluid">
                <div class="d-flex flex-column flex-center pb-0 pb-lg-10 p-10 w-100">
-                  <!-- <div class="clock">
-                     <div class="hour-hand"></div>
-                     <div class="minute-hand"></div>
-                     <div class="second-hand"></div>
-
-                     <div class="number number-3">3</div>
-                     <div class="number number-6">6</div>
-                     <div class="number number-9">9</div>
-                     <div class="number number-12">12</div>
-                  </div> -->
                   <img class="theme-light-show mx-auto mw-100 w-150px w-lg-500px mb-10 mb-lg-20" src="{{ asset(config('constants.default.logo_image')) }}" alt=""/>    
                   <img class="theme-dark-show mx-auto mw-100 w-150px w-lg-500px mb-10 mb-lg-20" src="{{ asset(config('constants.default.logo_image')) }}" alt=""/>                 
                   <h1 class="text-gray-800 fs-2qx fw-bold text-center mb-7"> 
