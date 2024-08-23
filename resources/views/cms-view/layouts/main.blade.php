@@ -23,8 +23,8 @@
                      @if(isset(Auth::user()->role_id) == '1' && Auth::user()->role_id == '1')
                         <img alt="Logo" src="{{ asset('assets-cms/logo-light.png') }}" class="h-40px logo"/>
                      @else
-                        <!-- <img alt="Logo" src="http://localhost/nrcp_website/public/assets/Nrcp_img/logo-gov.png" class="h-35px logo"/> -->
-                        <p>{{ env('COMPANY_NAME') }}</p>
+                     <img alt="Logo" src="{{ asset('assets-cms/logo-light.png') }}" class="h-40px logo"/>
+                        <!-- <p>{{ env('COMPANY_NAME') }}</p> -->
                      @endif
                   </a>
                   <!--end::Logo-->
