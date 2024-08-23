@@ -100,7 +100,7 @@
       <script src="{{ asset('assets-cms/plugins/global/plugins.bundle.js') }}"></script>
       <script src="{{ asset('assets-cms/cms_js/scripts.bundle.js') }}"></script>
       <script src="{{ asset('assets-cms/cms_js/src_md5.js') }}"></script>
-      <script src="{{ asset('assets-cms/cms_js/clock_md5.js') }}"></script>
+      <!-- <script src="{{ asset('assets-cms/cms_js/clock_md5.js') }}"></script> -->
       <script src="{{ asset('public/authentication/sign-in/general.js') }}"></script>
       <script src="{{ asset('assets-cms/cms_js/cms-js.js') }}"></script>
    </body>
