@@ -390,13 +390,14 @@
             </div>
          </div>
          @endif
-         @if(isset(Auth::user()->role_id) == '1' && Auth::user()->role_id == '1')
+         @if(isset(Auth::user()->role_id) == '1' && Auth::user()->role_id == '1' || isset(Auth::user()->role_id) == '2' && Auth::user()->role_id == '2')
          <div  class="menu-item pt-5" >
             <div  class="menu-content" ><span class="menu-heading fw-bold text-uppercase fs-7">{{ config('menu.logs') }}</span></div>
          </div>
          <div  class="menu-item" >
             <a class="menu-link {{ set_active1(['audittrail/audittrail-list']) }} {{ (request()->is('audittrail/audittrail-list/*')) ? 'active' : '' }}" href="{{ route('audittrail.list') }}"><span  class="menu-icon" ><i class="ki-outline ki-rocket fs-2"></i></span><span  class="menu-title" >{{ config('menu.audittrail') }}</span></a><!--end:Menu link-->
          </div>
+         @if(isset(Auth::user()->role_id) == '1' && Auth::user()->role_id == '1')
          <div  class="menu-item pt-5" >
             <div  class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">{{ config('menu.help') }}</span></div>
          </div>
@@ -406,6 +407,7 @@
          <div  class="menu-item">
             <a class="menu-link" href="#" target="_blank" ><span  class="menu-icon" ><i class="ki-outline ki-abstract-26 fs-2"></i></span><span  class="menu-title" >{{ config('menu.documentation') }}</span></a><!--end:Menu link-->
          </div>
+         @endif
          @endif
       </div>
    </div>

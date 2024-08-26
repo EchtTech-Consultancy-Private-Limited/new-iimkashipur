@@ -41,7 +41,7 @@
                   </h1>
                   <div class="text-gray-600 fs-base text-center fw-semibold">
                      <p>Version 1.0</p>
-                    Your IP: {{ Request::header('CF-Connecting-IP', Request::ip()) }}
+                     Your IP address is: {{ Request::header('CF-Connecting-IP', Request::ip()) }}
                   </div>
                </div>
             </div>
