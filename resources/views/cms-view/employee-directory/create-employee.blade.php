@@ -98,6 +98,16 @@
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
+                                        <label class="required fs-6 fw-semibold mb-2">Middle Name (English)</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 mename" type="text" placeholder="Enter Middle Name" name="mename" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--end::Col-->
+                                    <!--begin::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
                                         <label class="required fs-6 fw-semibold mb-2">Last Name (English)</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
@@ -125,9 +135,6 @@
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Col-->
-                                    
-                                </div>
-                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -158,6 +165,8 @@
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Col-->
+                                </div>
+                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -167,10 +176,6 @@
                                         <input class="form-control mb-2 extentionNo" type="text" placeholder="" name="extentionNo" value="" />
                                         <!--end::Input-->
                                     </div>
-                                    </div>
-                                    <!--end::Col-->
-                                    <!--begin::Col-->
-                                    <div class="row g-9 mb-7">
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
                                         <label class="required fs-6 fw-semibold mb-2">Email</label>
@@ -195,6 +200,11 @@
                                         <input class="form-control mb-2 short_order" type="date" placeholder="Number..." name="dod" value="" />
                                         <!--end::Input-->
                                     </div>
+                                </div>
+                                    <!--end::Col-->
+                                    <!--begin::Col-->
+                                <div class="row g-9 mb-7">
+                                    
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
                                         <label class="fs-6 fw-semibold mb-2">Sort Order</label>
