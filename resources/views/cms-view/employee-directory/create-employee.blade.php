@@ -66,6 +66,25 @@
                                         </select><!--end::Input-->
                                     </div>
                                     <!--end::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class=" fs-6 fw-semibold mb-2">Designation (English)</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 designation_en_extra" type="text" placeholder="Enter The Designation Name" name="designation_en_extra" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class=" fs-6 fw-semibold mb-2">पद का नाम (हिन्दी)</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 designation_hi_extra" type="text" placeholder="Enter The पद का नाम Name" name="designation_hi_extra" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    
+                                </div>
+                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -76,18 +95,6 @@
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Col-->
-                                    <!--begin::Col-->
-                                    <div class="col-md-3 fv-row">
-                                        <!--begin::Label-->
-                                        <label class="required fs-6 fw-semibold mb-2">Middle Name (English)</label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input class="form-control mb-2 mename" type="text" placeholder="Enter Middle Name" name="mename" value="" />
-                                        <!--end::Input-->
-                                    </div>
-                                    <!--end::Col-->
-                                </div>
-                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -118,6 +125,9 @@
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Col-->
+                                    
+                                </div>
+                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -128,8 +138,6 @@
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Col-->
-                                </div>
-                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -159,14 +167,40 @@
                                         <input class="form-control mb-2 extentionNo" type="text" placeholder="" name="extentionNo" value="" />
                                         <!--end::Input-->
                                     </div>
+                                    </div>
                                     <!--end::Col-->
                                     <!--begin::Col-->
+                                    <div class="row g-9 mb-7">
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
                                         <label class="required fs-6 fw-semibold mb-2">Email</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input class="form-control mb-2 email" type="text" placeholder="" name="email" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Date of Birth</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 short_order" type="date" placeholder="Number..." name="dob" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Date of Death</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 short_order" type="date" placeholder="Number..." name="dod" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Sort Order</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 short_order" type="number" placeholder="Number..." name="short_order" value="" />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Col-->
@@ -239,6 +273,42 @@
                                         <input class="form-control mb-2 instagram" type="url" placeholder="https?://.*" pattern="https?://.*" name="instagram" value="" />
                                         <!--end::Input-->
                                     </div>
+                                     <!--begin::Col-->
+                                     <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">ORCID</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 orcid" type="url" placeholder="https?://.*" pattern="https?://.*" name="orcid" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                     <!--begin::Col-->
+                                     <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Web of science</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 webofscience" type="url" placeholder="https?://.*" pattern="https?://.*" name="webofscience" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--begin::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Scop us</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 scopus" type="url" placeholder="https?://.*" pattern="https?://.*" name="scopus" value="" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--begin::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Scholar</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 scholar" type="url" placeholder="https?://.*" pattern="https?://.*" name="scholar" value="" />
+                                        <!--end::Input-->
+                                    </div>
                                     <div class="col-md-12 fv-row">
                                         <!--begin::Label-->
                                         <label class="fs-6 fw-semibold mb-2">Address/Place</label>
@@ -247,30 +317,7 @@
                                         <input class="form-control mb-2 short_order" type="text" placeholder="address..." name="address" value="" />
                                         <!--end::Input-->
                                     </div>
-                                    <div class="col-md-3 fv-row">
-                                        <!--begin::Label-->
-                                        <label class="fs-6 fw-semibold mb-2">Date of Birth</label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input class="form-control mb-2 short_order" type="date" placeholder="Number..." name="dob" value="" />
-                                        <!--end::Input-->
-                                    </div>
-                                    <div class="col-md-3 fv-row">
-                                        <!--begin::Label-->
-                                        <label class="fs-6 fw-semibold mb-2">Date of Death</label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input class="form-control mb-2 short_order" type="date" placeholder="Number..." name="dod" value="" />
-                                        <!--end::Input-->
-                                    </div>
-                                    <div class="col-md-3 fv-row">
-                                        <!--begin::Label-->
-                                        <label class="fs-6 fw-semibold mb-2">Sort Order</label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input class="form-control mb-2 short_order" type="number" placeholder="Number..." name="short_order" value="" />
-                                        <!--end::Input-->
-                                    </div>
+                                    
                                     <div class="fv-row mb-7">
                                         <!--begin::Label-->
                                         <label class="d-block fw-semibold fs-6 mb-5">Profile</label>

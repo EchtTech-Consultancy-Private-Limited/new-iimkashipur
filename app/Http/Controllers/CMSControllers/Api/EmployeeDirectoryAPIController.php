@@ -111,6 +111,8 @@ class EmployeeDirectoryAPIController extends Controller
                              'description_hi' => $request->description_h,
                              'department_id' =>$request->deprt_id??'',
                              'designation_id' => $request->designation_id??'',
+                             'designation_en_extra' =>$request->designation_en_extra??'',
+                             'designation_hi_extra' => $request->designation_hi_extra??'',
                              'public_url' => $newname,
                              'address' => $request->address??'',
                              'date_of_birth' => $request->dob??'',
@@ -122,7 +124,10 @@ class EmployeeDirectoryAPIController extends Controller
                              'facebook' => $request->facebook,
                              'twitter' => $request->twitter,
                              'instagram' => $request->instagram,
-                             //'gitHub' => $request->gitHub,
+                             'orcid' => $request->orcid??'',
+                            'webofscience' => $request->webofscience??'',
+                            'scopus' => $request->scopus??'',
+                            'scholar' => $request->scholar??'',
                          ]);
                      
                  if($result == true)
@@ -224,6 +229,8 @@ class EmployeeDirectoryAPIController extends Controller
                             'description_hi' => $request->description_h,
                             'department_id' =>$request->deprt_id??'',
                             'designation_id' => $request->designation_id??'',
+                            'designation_en_extra' =>$request->designation_en_extra??'',
+                            'designation_hi_extra' => $request->designation_hi_extra??'',
                             'public_url' => $newname,
                             'address' => $request->address??'',
                             'date_of_birth' => $request->dob??'',
@@ -235,6 +242,10 @@ class EmployeeDirectoryAPIController extends Controller
                             'facebook' => $request->facebook,
                             'twitter' => $request->twitter,
                             'instagram' => $request->instagram,
+                            'orcid' => $request->orcid??'',
+                            'webofscience' => $request->webofscience??'',
+                            'scopus' => $request->scopus??'',
+                            'scholar' => $request->scholar??'',
                             'status' => 1,
                     ]);
             
