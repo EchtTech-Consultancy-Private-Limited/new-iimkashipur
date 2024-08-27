@@ -72,6 +72,25 @@
                                         </select><!--end::Input-->
                                     </div>
                                     <!--end::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class=" fs-6 fw-semibold mb-2">Designation (English)</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 designation_en_extra" type="text" placeholder="Enter The Designation Name" name="designation_en_extra" value="{{ $data->designation_en_extra }}" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class=" fs-6 fw-semibold mb-2">पद का नाम (हिन्दी)</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 designation_hi_extra" type="text" placeholder="Enter The पद का नाम Name" name="designation_hi_extra" value="{{ $data->designation_hi_extra }}" />
+                                        <!--end::Input-->
+                                    </div>
+                                    
+                                </div>
+                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -92,8 +111,6 @@
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Col-->
-                                </div>
-                                <div class="row g-9 mb-7">
                                     <!--begin::Col-->
                                     <div class="col-md-3 fv-row">
                                         <!--begin::Label-->
@@ -238,6 +255,42 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input class="form-control mb-2 instagram" type="url" placeholder="https?://.*" pattern="https?://.*" name="instagram" value="{{ $data->instagram }}" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--begin::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">ORCID</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 orcid" type="url" placeholder="https?://.*" pattern="https?://.*" name="orcid" value="{{ $data->orcid }}" />
+                                        <!--end::Input-->
+                                    </div>
+                                     <!--begin::Col-->
+                                     <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Web of science</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 webofscience" type="url" placeholder="https?://.*" pattern="https?://.*" name="webofscience" value="{{ $data->webofscience }}" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--begin::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Scop us</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 scopus" type="url" placeholder="https?://.*" pattern="https?://.*" name="scopus" value="{{ $data->scopus }}" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--begin::Col-->
+                                    <div class="col-md-3 fv-row">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Scholar</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input class="form-control mb-2 scholar" type="url" placeholder="https?://.*" pattern="https?://.*" name="scholar" value="{{ $data->scholar }}" />
                                         <!--end::Input-->
                                     </div>
                                     <div class="col-md-12 fv-row">
