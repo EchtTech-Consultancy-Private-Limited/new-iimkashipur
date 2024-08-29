@@ -279,11 +279,11 @@
                                              
                                              <!-- <div>
                                                 <label class="required form-label mw-100 w-200px">Opening Date</label>
-                                                <input class="form-control mw-100 w-200px form-control-solid ps-12 flatpickr-input" name="openingdate" value="{{$pdfDatas->opening_date }}" />
+                                                <input class="form-control mw-100 w-200px form-control-solid ps-12 flatpickr-input" name="openingdate" value="{{$pdfDatas->opening_date??'' }}" />
                                              </div>
                                              <div>
                                                 <label class="required form-label mw-100 w-200px">Apply URL</label>
-                                                <input type="url" class="form-control mw-100 w-200px" name="applyurl" value="{{$pdfDatas->apply_url }}" />
+                                                <input type="url" class="form-control mw-100 w-200px" name="applyurl" value="{{$pdfDatas->apply_url??'' }}" />
                                              </div> -->
                                              <!--end::Input-->
                                              <button type="button" id="removeRow" data-repeater-delete class="btn btn-sm btn-icon btn-light-danger">
