@@ -70,6 +70,7 @@ class CareerManagementAPIController extends Controller
                         'title_name_hi' => $request->title_name_hi,
                         'start_date'=> $request->startdate,
                         'end_date' => $request->enddate,
+                        'public_url' => $request->apply_url,
                         'description_en' => $request->kt_description_en,
                         'description_hi' => $request->kt_description_hi,
                         
@@ -167,6 +168,7 @@ class CareerManagementAPIController extends Controller
                         'title_name_hi' => $request->title_name_hi,
                         'start_date'=> $request->startdate,
                         'end_date' => $request->enddate,
+                        'public_url' => $request->apply_url,
                         'status' => 1,
                         'description_en' => $request->kt_description_en,
                         'description_hi' => $request->kt_description_hi,
