@@ -27,7 +27,7 @@ class EditPageContentValidation extends FormRequest
     {
         $Id = $request->get('id');
         return [
-            'kt_summernote_en'=> 'required|unique:dynamic_content_page_metatag,page_content_en,'.$Id.',uid',
+            'kt_summernote_en'=> 'required|unique:dynamic_page_content,page_content_en,'.$Id.',uid',
             'kt_summernote_hi'=> 'required',
             'pageTitle_id'=> 'required',
             // 'description_hi'=> 'required',

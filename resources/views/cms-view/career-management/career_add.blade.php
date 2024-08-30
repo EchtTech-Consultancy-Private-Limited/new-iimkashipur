@@ -138,6 +138,18 @@
                               <!--end::Description-->
                            </div>
                            <!--end::Input group-->
+                           <div class="mb-10 fv-row mt-2">
+                              <!--begin::Label-->
+                              <label class="form-label">Apply URL</label>
+                              <!--end::Label-->
+                              <!--begin::Input-->
+                              <input type="url" name="apply_url" class="form-control mb-2 apply_url" id="apply_url" placeholder="https://" value="" />
+                              <!--end::Input-->
+                              <!--begin::Description-->
+                              <div class="text-muted fs-7">A title name is required and recommended to be unique.</div>
+                              <!--end::Description-->
+                           </div>
+                           <!--end::Input group-->
                            <!--begin::Input group-->
                            <div>
                               <!--begin::Label-->
